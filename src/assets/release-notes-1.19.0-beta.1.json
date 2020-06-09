@@ -84,8 +84,23 @@
     "duplicate_kind": true,
     "release_version": "1.19.0-beta.1"
   },
+  "90408": {
+    "commit": "222cae36ec667c2f12c8aaa73a86e3cf01d80f7e",
+    "text": "The Kubelet's `--cloud-provider` and `--cloud-config` options are now marked as deprecated.",
+    "markdown": "The Kubelet's `--cloud-provider` and `--cloud-config` options are now marked as deprecated. ([#90408](https://github.com/kubernetes/kubernetes/pull/90408), [@knabben](https://github.com/knabben)) [SIG Cloud Provider and Node]",
+    "author": "knabben",
+    "author_url": "https://github.com/knabben",
+    "pr_url": "https://github.com/kubernetes/kubernetes/pull/90408",
+    "pr_number": 90408,
+    "areas": ["cloudprovider", "kubelet", "kubelet-api"],
+    "kinds": ["api-change", "cleanup"],
+    "sigs": ["cloud-provider", "node"],
+    "duplicate": true,
+    "duplicate_kind": true,
+    "release_version": "1.19.0-beta.1"
+  },
   "90469": {
-    "commit": "5fc4f4d54812405720c2f4b39e4577d6f41a2aab",
+    "commit": "8aa0df4a74e987f8d0f67e71e2327efbdfd04814",
     "text": "Fix kubectl describe node for users not having access to lease information.",
     "markdown": "Fix kubectl describe node for users not having access to lease information. ([#90469](https://github.com/kubernetes/kubernetes/pull/90469), [@uthark](https://github.com/uthark)) [SIG CLI]",
     "author": "uthark",
@@ -199,7 +214,7 @@
     "release_version": "1.19.0-beta.1"
   },
   "91113": {
-    "commit": "7c3f7065dbf4aeeab3704c193927386deda8b305",
+    "commit": "ed1a0e945649095618bd3484c82b58046bcbd60c",
     "text": "Add --port flag to kubectl create deployment",
     "markdown": "Add --port flag to kubectl create deployment ([#91113](https://github.com/kubernetes/kubernetes/pull/91113), [@soltysh](https://github.com/soltysh)) [SIG CLI and Testing]",
     "author": "soltysh",
@@ -228,7 +243,7 @@
     "release_version": "1.19.0-beta.1"
   },
   "91145": {
-    "commit": "02637bb25016c5362dc945406df0b2114868ecf2",
+    "commit": "9cc416e7df0c9fdce7b78a7868b4345bc2cca621",
     "text": "kubeadm: during \"reset\" do not remove the only remaining stacked etcd member from the cluster and just proceed with the cleanup of the local etcd storage.",
     "markdown": "Kubeadm: during \"reset\" do not remove the only remaining stacked etcd member from the cluster and just proceed with the cleanup of the local etcd storage. ([#91145](https://github.com/kubernetes/kubernetes/pull/91145), [@tnqn](https://github.com/tnqn)) [SIG Cluster Lifecycle]",
     "author": "tnqn",
@@ -270,7 +285,7 @@
     "release_version": "1.19.0-beta.1"
   },
   "91182": {
-    "commit": "dee4a7cd8453fffdac3691435ef40fce32519669",
+    "commit": "ee3c1aeac662c03e6bdbb2d3d0ea4da3e4d0563d",
     "text": "The Kubelet's --seccomp-profile-root option is now available via the Kubelet config file field seccompProfileRoot.",
     "markdown": "The Kubelet's --seccomp-profile-root option is now available via the Kubelet config file field seccompProfileRoot. ([#91182](https://github.com/kubernetes/kubernetes/pull/91182), [@knabben](https://github.com/knabben)) [SIG Node]",
     "author": "knabben",
@@ -297,7 +312,7 @@
     "release_version": "1.19.0-beta.1"
   },
   "91196": {
-    "commit": "aba339c63ad308b8976471cea3206cf857d6f7d9",
+    "commit": "e7696d48dbc1253e6102fc5591dacd33d89e33f7",
     "text": "fix: fix topology issue in azure disk storage class migration",
     "markdown": "Fix: fix topology issue in azure disk storage class migration ([#91196](https://github.com/kubernetes/kubernetes/pull/91196), [@andyzhangx](https://github.com/andyzhangx)) [SIG Cloud Provider]",
     "author": "andyzhangx",
@@ -325,7 +340,7 @@
     "release_version": "1.19.0-beta.1"
   },
   "91240": {
-    "commit": "15e491eb2f98c29a94847d52f0a65269dd86d5e1",
+    "commit": "9e06faa1fbf473107de53b1a4d9e731d2b4eaa1e",
     "text": "kube-addon-manager has been updated to v9.1.1 to allow overriding the default list of whitelisted resources (https://github.com/kubernetes/kubernetes/pull/91018)",
     "markdown": "Kube-addon-manager has been updated to v9.1.1 to allow overriding the default list of whitelisted resources (https://github.com/kubernetes/kubernetes/pull/91018) ([#91240](https://github.com/kubernetes/kubernetes/pull/91240), [@tosi3k](https://github.com/tosi3k)) [SIG Cloud Provider, Scalability and Testing]",
     "author": "tosi3k",
@@ -379,7 +394,7 @@
     "release_version": "1.19.0-beta.1"
   },
   "91308": {
-    "commit": "83f343011f566130b813e81c84c40d218d10fecc",
+    "commit": "3e93f9926279db8a4d064d615c4ad7cfdc7ab38b",
     "text": "Remove deprecated --server-dry-run flag from kubectl apply",
     "markdown": "Remove deprecated --server-dry-run flag from kubectl apply ([#91308](https://github.com/kubernetes/kubernetes/pull/91308), [@julianvmodesto](https://github.com/julianvmodesto)) [SIG CLI and Testing]",
     "documentation": [
@@ -430,7 +445,7 @@
     "release_version": "1.19.0-beta.1"
   },
   "91370": {
-    "commit": "f91c1ef60e808ed4070619e0f7c53849757cf26c",
+    "commit": "b692502a9d55105ca412eb4f619b74b41fa01225",
     "text": "Update CNI to v0.8.6",
     "markdown": "Update CNI to v0.8.6 ([#91370](https://github.com/kubernetes/kubernetes/pull/91370), [@justaugustus](https://github.com/justaugustus)) [SIG Cloud Provider, Network, Release and Testing]",
     "author": "justaugustus",
@@ -456,20 +471,34 @@
     "sigs": ["node"],
     "release_version": "1.19.0-beta.1"
   },
+  "91400": {
+    "commit": "c6b833ac3c7e921b7fd256ee627f8280f328b1ca",
+    "text": "Fixed several bugs involving the IPFamily field when creating or updating services\nin clusters with the IPv6DualStack feature gate enabled.\n\nBeware that the behavior of the IPFamily field is strange and inconsistent and will\nlikely be changed before the dual-stack feature goes GA. Users should treat the\nfield as \"write-only\" for now and should not make any assumptions about a service\nbased on its current IPFamily value.",
+    "markdown": "Fixed several bugs involving the IPFamily field when creating or updating services\n  in clusters with the IPv6DualStack feature gate enabled.\n  \n  Beware that the behavior of the IPFamily field is strange and inconsistent and will\n  likely be changed before the dual-stack feature goes GA. Users should treat the\n  field as \"write-only\" for now and should not make any assumptions about a service\n  based on its current IPFamily value. ([#91400](https://github.com/kubernetes/kubernetes/pull/91400), [@danwinship](https://github.com/danwinship)) [SIG Apps and Network]",
+    "author": "danwinship",
+    "author_url": "https://github.com/danwinship",
+    "pr_url": "https://github.com/kubernetes/kubernetes/pull/91400",
+    "pr_number": 91400,
+    "kinds": ["bug"],
+    "sigs": ["apps", "network"],
+    "duplicate": true,
+    "release_version": "1.19.0-beta.1"
+  },
   "91420": {
-    "commit": "c682b313d9bae1ade89e5553daf31095c7a84e39",
-    "text": "`kubescheduler.config.k8s.io` is now beta",
-    "markdown": "`kubescheduler.config.k8s.io` is now beta ([#91420](https://github.com/kubernetes/kubernetes/pull/91420), [@pancernik](https://github.com/pancernik)) [SIG Scheduling]",
+    "commit": "852442c0ff820823d21b1afa2b5b5e3896947ce3",
+    "text": "upgrade kubescheduler.config.k8s.io/v1alpha2 to kubescheduler.config.k8s.io/v1beta1",
+    "markdown": "Upgrade kubescheduler.config.k8s.io/v1alpha2 to kubescheduler.config.k8s.io/v1beta1 ([#91420](https://github.com/kubernetes/kubernetes/pull/91420), [@pancernik](https://github.com/pancernik)) [SIG Scheduling]",
     "author": "pancernik",
     "author_url": "https://github.com/pancernik",
     "pr_url": "https://github.com/kubernetes/kubernetes/pull/91420",
     "pr_number": 91420,
     "kinds": ["api-change"],
     "sigs": ["scheduling"],
+    "action_required": true,
     "release_version": "1.19.0-beta.1"
   },
   "91448": {
-    "commit": "472a4e9ce281b6aac13d80f09e2fd925cb209e03",
+    "commit": "4d8280acca782897dbf4439daa417f39af2466bd",
     "text": "kube-scheduler: The metric name `scheduler_total_preemption_attempts` has been renamed to `scheduler_preemption_attempts_total`.",
     "markdown": "Kube-scheduler: The metric name `scheduler_total_preemption_attempts` has been renamed to `scheduler_preemption_attempts_total`. ([#91448](https://github.com/kubernetes/kubernetes/pull/91448), [@RainbowMango](https://github.com/RainbowMango)) [SIG API Machinery, Cluster Lifecycle, Instrumentation and Scheduling]",
     "author": "RainbowMango",
@@ -550,6 +579,41 @@
     "duplicate": true,
     "release_version": "1.19.0-beta.1"
   },
+  "91562": {
+    "commit": "b6213ed931930eba27b4a53db54b4b4d224a1c59",
+    "text": "Support kubectl create deployment with replicas",
+    "markdown": "Support kubectl create deployment with replicas ([#91562](https://github.com/kubernetes/kubernetes/pull/91562), [@zhouya0](https://github.com/zhouya0)) [SIG CLI]",
+    "author": "zhouya0",
+    "author_url": "https://github.com/zhouya0",
+    "pr_url": "https://github.com/kubernetes/kubernetes/pull/91562",
+    "pr_number": 91562,
+    "areas": ["kubectl"],
+    "kinds": ["feature"],
+    "sigs": ["cli"],
+    "feature": true,
+    "release_version": "1.19.0-beta.1"
+  },
+  "91580": {
+    "commit": "1ff09c09347ae6f85f9bc81b5319f54cb2443fb6",
+    "text": "Remove `BindTimeoutSeconds` from schedule configuration `KubeSchedulerConfiguration`",
+    "markdown": "Remove `BindTimeoutSeconds` from schedule configuration `KubeSchedulerConfiguration` ([#91580](https://github.com/kubernetes/kubernetes/pull/91580), [@cofyc](https://github.com/cofyc)) [SIG Scheduling and Testing]",
+    "documentation": [
+      {
+        "description": "[KEP]",
+        "url": "https://github.com/kubernetes/enhancements/tree/1a55e249afccbfad7d87673073efd19dc6089ce2/keps/sig-scheduling/785-scheduler-component-config-api",
+        "type": "KEP"
+      }
+    ],
+    "author": "cofyc",
+    "author_url": "https://github.com/cofyc",
+    "pr_url": "https://github.com/kubernetes/kubernetes/pull/91580",
+    "pr_number": 91580,
+    "areas": ["test"],
+    "kinds": ["api-change"],
+    "sigs": ["scheduling", "testing"],
+    "duplicate": true,
+    "release_version": "1.19.0-beta.1"
+  },
   "91597": {
     "commit": "9f9cb9d73e3a15f6abefbae8a05b2836214f4f35",
     "text": "NONE",
@@ -616,6 +680,20 @@
     "kinds": ["feature"],
     "sigs": ["network", "windows"],
     "feature": true,
+    "duplicate": true,
+    "release_version": "1.19.0-beta.1"
+  },
+  "91750": {
+    "commit": "369a9001c6f7192eaef6cc4460aeb4b4373f25e5",
+    "text": "Fixed an issue that a Pod's nominatedNodeName cannot be cleared upon node deletion.",
+    "markdown": "Fixed an issue that a Pod's nominatedNodeName cannot be cleared upon node deletion. ([#91750](https://github.com/kubernetes/kubernetes/pull/91750), [@Huang-Wei](https://github.com/Huang-Wei)) [SIG Scheduling and Testing]",
+    "author": "Huang-Wei",
+    "author_url": "https://github.com/Huang-Wei",
+    "pr_url": "https://github.com/kubernetes/kubernetes/pull/91750",
+    "pr_number": 91750,
+    "areas": ["test"],
+    "kinds": ["bug"],
+    "sigs": ["scheduling", "testing"],
     "duplicate": true,
     "release_version": "1.19.0-beta.1"
   }
